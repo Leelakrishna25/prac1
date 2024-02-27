@@ -1,3 +1,44 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Simple Website</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html" id="login-btn">Login</a></li>
+                <li><a href="register.html" id="register-btn">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Welcome to our Simple Website!</h2>
+        <p>This is a basic home page.</p>
+    </section>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <!-- Login form (similar to the previous example) -->
+        </div>
+    </div>
+
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Register</h2>
+            <!-- Registration form (similar to the previous example) -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
